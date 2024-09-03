@@ -2,7 +2,7 @@ name: Build and Publish Custom Caddy Image
 
 on:
   schedule:
-    - cron: '0 4 * * *'
+    - cron: '0 4 25 * *'
   push:
     branches: [ "master" ]
     paths-ignore:
